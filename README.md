@@ -1,15 +1,16 @@
 Steps to reproduce:
 
-1. Install by 
-`yarn`
+1. Install by
+   `yarn`
 
 2. Run locally
-`yarn local`
+   `yarn local`
 
 3. Trigger api on GET request to:
-`http://localhost:4000/hello`
+   `http://localhost:4000/hello`
 
 4. Error displayed is:
+
 ```
 Serverless: Error while loading hello
 Error: Serverless-offline: handler for 'hello' is not a function
@@ -22,4 +23,3 @@ Error: Serverless-offline: handler for 'hello' is not a function
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
     at Request._execute (/home/savnik/serverless-webpack-typescript-apollo/node_modules/@hapi/hapi/lib/request.js:221:9)
 ```
-
