@@ -27,6 +27,6 @@
     "serverless": "^1.60.5"
   },
   "dependencies": {
-    "apollo-server-lambda": "^2.9.16"
+    "apollo-server-lambda": "^2.14.2"
   }
 }
